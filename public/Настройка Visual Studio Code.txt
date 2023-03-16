@@ -1,0 +1,126 @@
+Resharper 9 Keybindings
+
+
+prettier-vscode
+форматировать документ
+shift + alt + f
+
+Bracket Pair Colorizer & Indent Rainbow
+Эти расширения наполнят ваш редактор морем красок, сделают блоки кода отличимыми друг от друга и придадут им приятный вид.
+
+
+
+Import Cost
+Это расширение позволяет увидеть размер импортируемых модулей
+
+
+Auto Close Tag & Auto Rename Tag
+расширение, которое будет добавлять закрывающий тег к его открытой паре, и автоматически изменять закрывающий тег, когда вы изменяете открывающий.
+
+GitLens
+Со слов автора, GitLens расширяет возможности Git, встроенного в Visual Studio Code. 
+
+CSS Peek
+С этим плагином вы можете отслеживать определения CSS классов и id таблиц стилей. Для этого просто достаточно кликнуть правой кнопкой мыши на селектор в вашем HTML файле и воспользоваться функцией Перейти к определению или Подсмотреть определение.
+
+
+Better Comments
+Расширение Better Comments позволяет расширить возможности по работе с комментариями. В частности, оно позволяет делить комментарии на категории. Это могут быть уведомления, запросы, списки дел, примечания.
+
+JavaScript (ES6) code snippets
+
+
+Settings Sync
+Оно синхронизирует настройки в VSCode с учётной записью Google, Github и другими, и при удалении VSCode ничего страшного не произойдёт.
+
+
+IntelliSense for CSS class names in HTML
+Расширение VSCode, которое автоматически дополняет название CSS-класса для HTML-атрибута class на основе определений, найденных в вашей рабочей области или внешних файлов, на которые ссылается элемент link.
+
+
+npm Intellisense
+Плагин VSCode, который автоматически дополняет имена модулей npm в операциях импорта
+
+
+TypeScript Hero
+Это расширение пригодится всем, кто пишет на TypeScript и хочет, чтобы VSC организовал импорты за него.
+
+
+Jest
+
+открыть setting.json
+F1 or Ctrl+Shift+P)
+
+включить обрезку пробелов в настройках
+Добавьте новую настройку "files.trimTrailingWhitespace": true
+
+
+Автозавершение JSX или HTML в коде Visual Studio
+"emmet.triggerExpansionOnTab": true,
+"emmet.includeLanguages": {
+  "javascript": "javascriptreact"
+}
+
+https://prettier.io/docs/en/options.html
+https://code.visualstudio.com/docs/getstarted/settings
+https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+
+
+РАСШИРЕНИЯ
+Auto Rename Tag   авто закрытие тегов
+Babel JavaScript  улучшает подстветку синтаксиса
+Backticks             если написать ${ кавычки сменятся на обратные
+Color Highlight       подсветка цветов
+Color Picker          пипетка command + shift + p - pick color
+ES7+ React/Redux/React-Native snippets      сниппеты для развёртывания реакт компонентов
+ESLint        
+GraphQL   //Orsen Kucher
+Import Cost        позволяет увидеть размер импортируемых модулей
+Path Intellisense     автоподставка путей к файлам
+Prettier - Code formatter         это преттиер, что ещё надо
+React Style Helper      подсказывает какие есть стили
+Sass
+SCSS IntelliSense
+Sublime Text Keymap and Settings Importer       перенести горячие клавиши из Sublime
+IntelliCode       подсказки для разных языков
+
+
+для php
+Laravel Blade formatter
+Live Server       виртуальный сервер
+PHP Intelephense        подсказки кода
+phpfmt - PHP formatter    форматирование php
+
+
+
+
+Кто использует в разработке VS Code, то для того, чтобы в компонентах не использовать import React необходимо:
+1. Как в видео в файле tsconfig.json изменить ключ "jsx" на "react-jsx"
+2. Нажать комбинацию клавиш "CTRL + Shift + P", в палитре команд ввести "typescript version" и выбрать "Использовать версию рабочей области" ("Use workspace version")
+
+ПЛАГИНЫ:
+Auto Close Tag
+Auto Rename Tag
+Babel JavaScript
+Backticks
+Better Comments
+CSS Peek
+Docker
+ES7+ React/Redux/React-Native snippets
+ESLint
+Format HTML in PHP
+Import Cost
+indent-rainbow
+IntelliSense for CSS class names in HTML
+JavaScript (ES6) code snippets
+Jest
+Prettier - Code formatter
+Reactjs code snippets
+Resharper 9 Keybindings
+Russian Language Pack for Visual Studio Code
+Sass (.sass only)
+SCSS IntelliSense
+Test Adapter Converter
+Test Explorer UI
+vscode-icons
+Path Intellisense
